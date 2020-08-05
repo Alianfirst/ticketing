@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default (() => {\n  return 'Hi there!';\n});","map":{"version":3,"sources":["D:/Сайт/Microservices/ticketing/client/pages/index.js"],"names":[],"mappings":"AAAA,gBAAe,MAAM;AACpB,SAAO,WAAP;AACA,CAFD","sourcesContent":["export default () => {\r\n\treturn 'Hi there!';\r\n};\r\n"]},"metadata":{},"sourceType":"module"}
