@@ -1,13 +1,11 @@
-name: tests
+name: tests-auth
 
 on:
   pull_request
   
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-16.04
     steps:
       - uses: actions/checkout@v2
       - run: cd auth && npm install && npm run test:ci
-      
-    
